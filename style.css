@@ -42,11 +42,11 @@ body {
 .go-to-top {
   display: none;
   position: fixed;
-  bottom: 14.8rem;
+  bottom: 12rem;
   right: 2.4rem;
 
   svg {
-    width: 6.2rem;
+    width: 5.2rem;
     background: var(--color-primery-2);
     color: var(--color-primery-4);
     border-radius: 50%;
@@ -59,13 +59,13 @@ body {
   justify-content: center;
   background: var(--color-primery-5);
   width: 100%;
-  height: 12.8rem;
+  height: 9.6rem;
   border-bottom: 0.3rem solid var(--color-primery-3);
   position: fixed;
   top: 0;
 
   svg {
-    height: 4.8rem;
+    height: 3.6rem;
 
     .path-a {
       fill: var(--color-primery-1);
@@ -81,11 +81,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 4.8rem;
-  margin: 17.6rem 4.8rem;
+  gap: 2.4rem;
+  margin: 12rem 2.4rem;
 
   h1 {
-    font-size: 4.4rem;
+    font-size: 3rem;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -105,19 +105,19 @@ body {
   ul {
     display: flex;
     flex-direction: column;
-    gap: 2.4rem;
+    gap: 1.6rem;
     list-style: none;
 
     li {
       a {
         &:any-link {
           display: flex;
-          font-size: 2.4rem;
+          font-size: 1.6rem;
           font-weight: 400;
-          min-width: 70rem;
+          min-width: 60rem;
           max-width: 90rem;
           line-height: 150%;
-          padding: 2.4rem;
+          padding: 1.6rem;
           border-radius: 2rem;
           background: var(--color-primery-3);
           color: var(--color-primery-1);
@@ -136,14 +136,14 @@ body {
   justify-content: center;
   background: var(--color-primery-5);
   width: 100%;
-  height: 12.8rem;
-  gap: 2.4rem;
+  height: 9.6rem;
+  gap: 1.6rem;
   border-top: 0.3rem solid var(--color-primery-3);
   position: fixed;
   bottom: 0;
 
   h2 {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     font-weight: 600;
   }
 
@@ -151,13 +151,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 4.8rem;
+    gap: 3.2rem;
     list-style: none;
 
     li {
       a {
         &:any-link {
-          font-size: 2.4rem;
+          font-size: 1.8rem;
           font-weight: 400;
           color: var(--color-primery-2);
         }
@@ -191,47 +191,12 @@ body {
 }
 
 @media (max-width: 460px) {
-  html {
-    font-size: 32%;
-  }
-}
-
-@media (max-width: 390px) {
-  .main {
-    margin: 17.6rem 2.4rem;
-    ul {
-      li {
-        a {
-          &:any-link {
-            min-width: 66rem;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 360px) {
   .main {
     ul {
       li {
         a {
           &:any-link {
-            min-width: 62rem;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 330px) {
-  .main {
-    ul {
-      li {
-        a {
-          &:any-link {
-            min-width: 58rem;
+            min-width: 50rem;
           }
         }
       }
