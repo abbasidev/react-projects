@@ -188,4 +188,9 @@ body {
   html {
     font-size: 38%;
   }
+  .go-to-top {
+    svg {
+      width: 7.4rem;
+    }
+  }
 }
